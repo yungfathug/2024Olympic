@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.hero {
+    background: url('images/pexels.jpeg') no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.main-content {
+    flex: 1;
+}
+
+footer {
+    background: #343a40;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+
+.card {
+    border-radius: 15px;
+}
+.sticky-bottom {
+    margin-bottom: 0;
+}
