@@ -10,7 +10,7 @@ body {
 }
 
 .hero {
-    background: url('images/pexels.jpeg') no-repeat center center;
+    background: url('images/pexels-inspiredimages-133325.jpg') no-repeat center center;
     background-size: cover;
     color: #ffffff;
 }
@@ -33,4 +33,8 @@ footer {
 }
 .sticky-bottom {
     margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
 }
